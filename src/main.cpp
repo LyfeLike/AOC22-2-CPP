@@ -38,7 +38,7 @@ Round round_matcher(char left, char right){
 }
 
 int round_resolution(Round round){
-    int score = 0;//this cannot be local
+    int score = 0;
     if (round.theirs == Move::Rock && round.ours == Move::Paper){
         score += 8;
     }else if (round.theirs == Move::Paper && round.ours == Move::Rock) {

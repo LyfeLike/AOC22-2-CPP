@@ -68,7 +68,6 @@ int main() {
     } else {
         std::cout << "Unable to open file :(" << std::endl;
     }
-    //you need to iterate over contents and after that match the move, save that as ours or theirs, and calculate the outcoom;
     std::cout<< "Final score= " << final_score <<std::endl;
     return 0;
 }
